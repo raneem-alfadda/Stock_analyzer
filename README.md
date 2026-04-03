@@ -2,32 +2,20 @@
 
 A Python project for analyzing selected Saudi stocks from Tadawul using current and historical market data.
 
+This project fetches stock data, checks data quality, detects unusual price and volume activity, and gives a simple interpretation based on price movement and trading volume.
+
 ## Features
 
-* Fetch current stock data using Yahoo Finance
+* Fetch current stock data
 * Check historical data quality
-* Detect missing values and unusual price changes
+* Detect missing values
+* Detect unusual price changes
 * Detect volume spikes
 * Generate a simple interpretation based on price and volume
 
-## Project Structure
-
-```bash id="o2ukit"
-saudi-stock-analyzer/
-│
-├── SRC/
-│   ├── fetcher.py
-│   ├── quality_check.py
-│   └── interpreter.py
-│
-├── main.py
-├── requirements.txt
-└── README.md
-```
-
 ## Run the Project
 
-```bash id="klv4g1"
+```bash
 pip install -r requirements.txt
 python main.py
 ```
@@ -40,20 +28,9 @@ python main.py
 * STC
 * Alinma Bank
 
-## Built With
-
-* Python
-* pandas
-* yfinance
-
-## Note
+Built with Python, pandas, and yfinance.
 
 This project is for learning and portfolio purposes.
-
-## Author
-
-Raneem Al-Fadda
-
 
 
 
