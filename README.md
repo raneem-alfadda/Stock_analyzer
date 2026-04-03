@@ -13,7 +13,7 @@ Fetch current stock data
  Detect volume spikes
  Generate a simple interpretation based on price and volume
 
- Run the Project
+ ## How to Run the Project
 
 ```bash
 pip install -r requirements.txt
