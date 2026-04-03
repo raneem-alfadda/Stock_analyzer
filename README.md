@@ -4,29 +4,28 @@ A Python project for analyzing selected Saudi stocks from Tadawul using current 
 
 This project fetches stock data, checks data quality, detects unusual price and volume activity, and gives a simple interpretation based on price movement and trading volume.
 
-## Features
+Features
 
-* Fetch current stock data
-* Check historical data quality
-* Detect missing values
-* Detect unusual price changes
-* Detect volume spikes
-* Generate a simple interpretation based on price and volume
+Fetch current stock data
+ Check historical data quality
+ Detect missing values
+ Detect unusual price changes
+ Detect volume spikes
+ Generate a simple interpretation based on price and volume
 
-## Run the Project
+ Run the Project
 
 ```bash
 pip install -r requirements.txt
 python main.py
 ```
+ Example Stocks
 
-## Example Stocks
-
-* Al Rajhi Bank
-* Saudi Aramco
-* SABIC
-* STC
-* Alinma Bank
+ Al Rajhi Bank
+ Saudi Aramco
+ SABIC
+STC
+Alinma Bank
 
 Built with Python, pandas, and yfinance.
 
